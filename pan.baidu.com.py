@@ -1310,7 +1310,7 @@ class panbaiducom_HOME(object):
                                     break
                                 else:
                                     print s % (1, 91, '\n  |-- slice_md5 does\'n match, retry.')
-                                    break
+                                    continue
 
                             if result != ENoError: break
 
